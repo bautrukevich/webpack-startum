@@ -1,8 +1,7 @@
 <div align="center">
   <h1>Webpack Startum</h1>
+  <p>Help you to start a new project with Webpack.</p>
 </div>
-
-Help you to start a new project with Webpack.
 
 <div align="center">
   <h2>Features</h2>
