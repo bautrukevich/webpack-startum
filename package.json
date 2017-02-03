@@ -11,12 +11,17 @@
     "test": "mocha --compilers js:babel-core/register --colors ./src/**/*.spec.js",
     "test:watch": "mocha --compilers js:babel-core/register --colors -w ./src/**/*.spec.js",
     "docs": "node_modules/.bin/jsdoc --configure .jsdocrc --verbose",
-    "build": "yarn flow && webpack -p --config ./build/webpack.config.production.babel.js --progress --colors && yarn docs"
+    "build": "yarn flow && yarn test && webpack -p --config ./build/webpack.config.production.babel.js --progress --colors && yarn docs"
   },
   "browserslist": [
     "> 1%",
     "last 2 versions"
   ],
+  "repository": {
+    "url": "https://github.com/bautrukevich/webpack-startum.git",
+    "type": "git"
+  },
+  "author": "Siarhei Bautrukevich",
   "license": "MIT",
   "devDependencies": {
     "babel": "^6.5.2",
