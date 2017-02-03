@@ -1,0 +1,4 @@
+ {
+  "presets": ["latest", "env"],
+  "plugins": ["babel-plugin-add-module-exports", "transform-flow-strip-types"]
+}

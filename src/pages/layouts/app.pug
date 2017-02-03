@@ -1,0 +1,20 @@
+//- layouts/app.pug
+doctype html
+html
+  head
+    block meta
+      meta(charset='utf-8')
+      meta(http-equiv='x-ua-compatible' content='ie=edge')
+      //meta(content='' name='description')
+      //meta(content='' name='keywords')
+      meta(name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no')
+    block title
+      title Default title
+    block styles
+      link(href='assets/css/style.css' rel='stylesheet')
+
+  body.body
+    block content
+    block scripts
+      script(src='assets/js/vendor.js')
+      script(src='assets/js/main.js')
